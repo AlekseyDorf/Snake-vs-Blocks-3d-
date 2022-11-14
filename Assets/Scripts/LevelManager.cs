@@ -38,5 +38,9 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneName);
     }
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
     
 }
